@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hotels-header h2 {
+  text-align: center;
+}
+
+.hotel-name-container {
+  width: 200px;
+}
+
+.hotels-name {
+  font-size: 20px;
+}
+.hotel-description-container {
+  width: 350px;
+}
+.hotels-description {
+  font-size: 16px;
+}
+.photo {
+  height: auto;
+  width: 150px;
+  max-width: 50%;
+}
+.hotels-item {
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 8px;
+}
